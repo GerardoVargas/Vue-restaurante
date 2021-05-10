@@ -1,8 +1,8 @@
 <template>
   <v-col cols="12" lg="2">
     <v-btn class="warning">
-      {{ addCarrito ? 'Agregar' : 'Buscar' }}
-      <v-icon right>{{ addCarrito ? 'mdi-cart' : 'mdi-magnify'}}</v-icon>
+      {{ title ? title : addCarrito ? 'Agregar' : 'Buscar' }}
+      <v-icon v-if="!title" right>{{ addCarrito ? 'mdi-cart' : 'mdi-magnify'}}</v-icon>
     </v-btn>
   </v-col>
 </template>
@@ -15,6 +15,9 @@ export default {
       type: Boolean
     },
     price: {
+      type: String
+    },
+    title: {
       type: String
     }
   }

@@ -14,13 +14,23 @@
           </v-card-title>
           <v-card-action >
             <v-row>
-              <v-col>
+              <v-col cols="6">
                 <h3 class="px-4">$ {{data.precio}}</h3>
               </v-col>
-              <v-col>
-                <Button 
-                  :addCarrito="true" 
-                />
+              <v-col cols="12">
+                <v-row>
+                  <v-col cols="6">
+                    <Button 
+                      :addCarrito="true"
+                      title="Ver más"
+                    />
+                  </v-col>
+                  <v-col cols="6">
+                    <Button 
+                      :addCarrito="true" 
+                    />
+                  </v-col>
+                </v-row>
               </v-col>
             </v-row>
           </v-card-action>
