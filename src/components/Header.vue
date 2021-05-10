@@ -68,13 +68,6 @@
         ],
         drawer: false
       }
-    },
-    methods: {
-      isEmpty(){
-        if(this.$store.getters.checkCart && this.$store.getters.checkCart.length > 0){
-          return false
-        }
-      }
     }
   }
 </script>

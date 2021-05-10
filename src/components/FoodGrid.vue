@@ -7,7 +7,6 @@
           :src="item.imagen"
           :data="item"
         />
-     
     </v-row>
   </v-container>
 </template>
@@ -19,10 +18,6 @@ export default {
   components: {
     ProductCard
   },
-  name: 'FoodGrid',
-  data(){
-    return {   
-    }
-  }
+  name: 'FoodGrid'
 }
 </script>

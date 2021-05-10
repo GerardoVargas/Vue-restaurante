@@ -1,6 +1,6 @@
 <template>
   <v-col cols="12" lg="2">
-    <v-btn class="warning">
+    <v-btn class="warning" @click="click">
       {{ title ? title : addCarrito ? 'Agregar' : 'Buscar' }}
       <v-icon v-if="!title" right>{{ addCarrito ? 'mdi-cart' : 'mdi-magnify'}}</v-icon>
     </v-btn>
@@ -19,6 +19,11 @@ export default {
     },
     title: {
       type: String
+    }
+  },
+  methods: {
+    click($evt){
+      this.$emit('addToCard', $evt);
     }
   }
 }

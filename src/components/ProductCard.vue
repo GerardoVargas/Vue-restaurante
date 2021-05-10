@@ -20,15 +20,19 @@
               <v-col cols="12">
                 <v-row>
                   <v-col cols="6">
-                    <Button 
-                      :addCarrito="true"
-                      title="Ver más"
-                    />
+                    <v-col cols="12" lg="2">
+                      <v-btn class="warning">
+                        Ver más
+                      </v-btn>
+                    </v-col>
                   </v-col>
                   <v-col cols="6">
-                    <Button 
-                      :addCarrito="true" 
-                    />
+                    <v-col cols="12" lg="2">
+                      <v-btn class="warning">
+                        Agregar
+                        <v-icon right>mdi-cart</v-icon>
+                      </v-btn>
+                    </v-col>
                   </v-col>
                 </v-row>
               </v-col>
