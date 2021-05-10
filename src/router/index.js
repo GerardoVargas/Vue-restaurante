@@ -3,7 +3,8 @@ import VueRouter from 'vue-router'
 import {
    Home,
    About,
-   Form
+   Form,
+   DishDetails
 } from '../views/index'
 
 Vue.use(VueRouter)
@@ -23,6 +24,11 @@ const routes = [
     path: '/form',
     name: 'Form',
     component: Form
+  },
+  {
+    path: 'dishDetails/:id',
+    name: 'DishDetails',
+    component: DishDetails
   }
 ]
 

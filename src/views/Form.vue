@@ -7,7 +7,7 @@
         md="8"
         lg="6"
       >
-        <h1>asass</h1>
+        <h1 class="text-center">Nuevo Platillo</h1>
         <v-card class="mt-10">
           <v-text-field
             ref="name"
@@ -63,6 +63,7 @@
     data(){
       return {
         newDishItem: {
+          id: this.$store.getters.getProducts.length + 1,
           nombre: '',
           precio: '',
           descripcion: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -72,6 +73,7 @@
     },
     methods: {
       addNewDish(){
+        console.log(this.newDishItem.id);
         this.$store.dispatch('addNewDish', this.newDishItem)
         alert('Datos guardados con éxito')
         this.goHome()
