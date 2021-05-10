@@ -10,7 +10,7 @@
             :src="src"
           ></v-img>
           <v-card-title>
-            {{data.titulo}}
+            {{data.nombre}}
           </v-card-title>
           <v-card-action >
             <v-row>

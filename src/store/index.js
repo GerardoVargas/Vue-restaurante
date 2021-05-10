@@ -10,13 +10,13 @@ export default new Vuex.Store({
     shoppingCart: {}
   },
   mutations: {
-    NEW_PRODUCT({state}, new_cart_product){
-      state.shoppingCart.push(new_cart_product)
+    NEW_DISH(state, dishItem){
+      state.products.push(dishItem)
     }
   },
   actions: {
-    addProductCart({commit}, new_cart_product){
-      commit('NEW_PRODUCT', new_cart_product)
+    addNewDish({commit}, dishItem){
+      commit('NEW_DISH', dishItem)
     }
   },
   modules: {
@@ -24,9 +24,6 @@ export default new Vuex.Store({
   getters: {
     getProducts: (state) => {
       return state.products
-    },
-    checkCart: (state) => {
-      return state.shoppingCart
     }
   }
 })

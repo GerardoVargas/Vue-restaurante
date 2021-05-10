@@ -1,67 +1,67 @@
 [
     {
-        "titulo": "Pizza de vegetales",
+        "nombre": "Pizza de vegetales",
         "imagen": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg",
         "precio": "180.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        "titulo": "Hamburguesa Sencilla",
+        "nombre": "Hamburguesa Sencilla",
         "imagen": "https://media.istockphoto.com/photos/fast-food-burger-on-a-wooden-board-picture-id1205216860?b=1&k=6&m=1205216860&s=170667a&w=0&h=WC_rXM6V3mzzQzkGFBee5b-b62s1yJxu0KK-oYLBBW8=",
         "precio": "80.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        "titulo": "Hamburguesa Angus con papas",
+        "nombre": "Hamburguesa Angus con papas",
         "imagen": "https://cdn.pixabay.com/photo/2015/12/08/00/26/food-1081707__340.jpg",
         "precio": "150.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
 
-        "titulo": "Club Sandwich con papas",
+        "nombre": "Club Sandwich con papas",
         "imagen": "https://cdn.pixabay.com/photo/2018/07/14/21/30/club-sandwich-3538455__340.jpg",
         "precio": "120.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
     
-        "titulo": "Jocho con queso",
+        "nombre": "Jocho con queso",
         "imagen": "https://cdn.pixabay.com/photo/2017/06/24/05/26/hot-dog-2436748__340.jpg",
         "precio": "40.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
         
-        "titulo": "Brocheta de sirlon con papas",
+        "nombre": "Brocheta de sirlon con papas",
         "imagen": "https://cdn.pixabay.com/photo/2017/06/29/20/16/food-2456100__340.jpg",
         "precio": "99.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       
-        "titulo": "Hamburguesa Regia",
+        "nombre": "Hamburguesa Regia",
         "imagen": "https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054__340.jpg",
         "precio": "150.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
         
-        "titulo": "Torta La Tuga",
+        "nombre": "Torta La Tuga",
         "imagen": "https://cdn.pixabay.com/photo/2017/03/10/13/49/fast-food-2132863__340.jpg",
         "precio": "70.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
       
-        "titulo": "Agua de Jamaica 350ml",
+        "nombre": "Agua de Jamaica 350ml",
         "imagen": "https://cdn.pixabay.com/photo/2017/09/01/03/21/campari-soda-2702959__340.jpg",
         "precio": "30.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
         
-        "titulo": "Coca Cola 355ml",
+        "nombre": "Coca Cola 355ml",
         "imagen": "https://cdn.pixabay.com/photo/2015/03/30/12/39/coke-698545__340.jpg",
         "precio": "30.00",
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."

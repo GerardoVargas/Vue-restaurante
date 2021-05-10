@@ -18,20 +18,11 @@
         color="warning"
         content="2"
         class="mt-2"
-        v-if="!isEmpty"
       >
         <v-icon right>
           mdi-cart
         </v-icon>
       </v-badge>
-
-      <v-icon 
-        right
-        v-else
-      >
-        mdi-cart
-      </v-icon>
-        
     </v-btn>
   </v-app-bar>
 
