@@ -2,6 +2,7 @@
   <div>
     <PrincipalSection />
     <Search />
+    <FoodGrid />
   </div>
   
 </template>
@@ -9,7 +10,8 @@
 <script>
   import { 
     PrincipalSection,  
-    Search
+    Search,
+    FoodGrid
   } from '../components/index'
 
   export default {
@@ -17,7 +19,8 @@
 
     components: {
       PrincipalSection,
-      Search
+      Search,
+      FoodGrid
     },
   }
 </script>

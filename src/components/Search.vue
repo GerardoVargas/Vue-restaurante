@@ -3,11 +3,12 @@
     <v-row>
       <v-col
         class="my-4"
-        cols="12"
       >
       <v-form>
-        <Input  />
-        <Button />
+        <v-row>
+          <Input />
+          <Button />
+        </v-row>
       </v-form>
       </v-col>
     </v-row>
