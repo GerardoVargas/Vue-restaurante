@@ -1,7 +1,6 @@
 <template>
   <v-container>
     <v-row>
-      
         <ProductCard 
           v-for="(item, i) in $store.state.productos"
           :key="i"

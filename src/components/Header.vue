@@ -11,6 +11,22 @@
     <v-tabs centered dark class="hidden-sm-and-down">
       <v-tab v-for="(item, i) in menu" :key="i" :to="item.link">{{item.title}}</v-tab>
     </v-tabs>
+
+    <v-spacer></v-spacer>
+    <v-btn icon dark class="pr-2">
+
+      <v-badge
+        color="warning"
+        content="2"
+        class="mt-2"
+      >
+        <v-icon right>
+          mdi-cart
+        </v-icon>
+      </v-badge>
+
+        
+    </v-btn>
   </v-app-bar>
 
   <v-navigation-drawer 
